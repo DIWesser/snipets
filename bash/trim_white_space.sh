@@ -6,3 +6,5 @@ trim_white_space() {
     i="${i%"${i##*[![:space:]]}"}"
     printf "$i"
 }
+
+trim_white_space
